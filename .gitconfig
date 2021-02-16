@@ -1,0 +1,7 @@
+[user]
+	name = Ken Butler
+	email = Ken.Butler.AE@gmail.com
+[alias]
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=iso
+    histf = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=iso --name-status
+    histc = log --graph --pretty=oneline --abbrev-commit
